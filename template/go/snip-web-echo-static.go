@@ -1,1 +1,0 @@
-e.Static("/static", "assets")

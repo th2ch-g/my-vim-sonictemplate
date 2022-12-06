@@ -1,3 +1,0 @@
-useEffect(() => {
-    {{_cursor_}}
-}, []);

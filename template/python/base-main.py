@@ -1,9 +1,6 @@
-# vim: fileencoding=utf-8
+#!/usr/bin/env python3
 
-
-def main():
-	{{_cursor_}}
 
 if __name__ == '__main__':
-	main()
+    {{__cursor__}}
 

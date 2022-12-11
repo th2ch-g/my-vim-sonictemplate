@@ -5,5 +5,5 @@ import sys
 import subprocess as sb
 
 
-{{__cursor__}}
+{{_cursor_}}
 

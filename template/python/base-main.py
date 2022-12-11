@@ -2,5 +2,5 @@
 
 
 if __name__ == '__main__':
-    {{__cursor__}}
+    {{_cursor_}}
 

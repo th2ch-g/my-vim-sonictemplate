@@ -1,4 +1,7 @@
 use proconio::{*};
+use proconio::marker::{*};
+use std::collections::{*};
+#[fastout]
 fn main() {
     input! {
         n: usize,
@@ -9,4 +12,3 @@ fn main() {
 
     println!("{}", answer);
 }
-

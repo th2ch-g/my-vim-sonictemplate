@@ -5,6 +5,7 @@ use petgraph::algo::{*};
 use petgraph::graph::{*};
 use petgraph::unionfind::{*};
 use petgraph::data::{*};
+use itertools::{*};
 #[fastout]
 fn main() {
     input! {

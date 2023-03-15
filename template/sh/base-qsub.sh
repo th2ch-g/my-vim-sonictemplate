@@ -9,5 +9,8 @@
 #$ -o log
 #$ -N hoge
 
+set -e
+
 {{_cursor_}}
 
+echo "hoge done" >&1

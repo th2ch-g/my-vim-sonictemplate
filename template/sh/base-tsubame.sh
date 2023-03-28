@@ -7,7 +7,6 @@
 #$ -m abe
 #$ -M {{_input_:email_address_prefix}}@yahoo.co.jp
 #$ -N hoge
-
 set -e
 module purge
 

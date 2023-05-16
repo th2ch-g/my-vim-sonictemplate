@@ -7,11 +7,11 @@
 #$ -1023
 #$ -j y
 #$ -o log
-#$ -N hoge
+#$ -N job
 set -e
 
 
 {{_cursor_}}
 
 
-echo "hoge done" >&1
+echo "job done" >&1

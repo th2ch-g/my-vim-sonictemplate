@@ -2,16 +2,17 @@
 #$ -cwd
 #$ -l f_node=1
 #$ -l h_rt=00:10:0
-#$ -o log
-#$ -e err
+#$ -o job.log
+#$ -e job.err
 #$ -m abe
-#$ -M {{_input_:email_address_prefix}}@yahoo.co.jp
-#$ -N hoge
+#$ -M MAIL
+#$ -N job
 set -e
+. /etc/profile.d/modules.sh
 module purge
 
 
 {{_cursor_}}
 
 
-echo "hoge done" >&1
+echo "job done" >&1

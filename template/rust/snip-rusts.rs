@@ -4,7 +4,6 @@
 //! [dependencies]
 //! ```
 
-
 fn main() {
     {{_cursor_}}
 }

@@ -5,10 +5,11 @@
 //! proconio={version="*", features=["derive"]}
 //! ```
 
-#[proconio::fastout]
+use proconio::marker::*;
+use proconio::*;
+#[fastout]
 fn main() {
-    use proconio::marker::*;
-    proconio::input! {
+    input! {
         {{_cursor_}}
     }
 }

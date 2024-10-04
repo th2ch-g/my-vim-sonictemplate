@@ -5,6 +5,7 @@
 //! proconio={version="*", features=["derive"]}
 //! ```
 
+#[allow(unused)]
 use proconio::marker::*;
 use proconio::*;
 #[fastout]

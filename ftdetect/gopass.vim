@@ -1,4 +1,4 @@
 augroup gopass_secret
   au!
-  au BufNewFile,BufRead */gopass-edit*/secret\ #*  setfiletype gopass
+  au BufNewFile,BufRead */gopass-edit*/secret*  setfiletype gopass
 augroup END

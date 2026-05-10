@@ -1,0 +1,25 @@
+{{_cursor_}}mySecretPassword
+---
+username: user@example.com
+url: https://example.com
+email: user@example.com
+recovery_email: backup@example.com
+phone: +81-90-xxxx-xxxx
+security_question: 母の旧姓は?
+security_answer: スミス
+api_key: sk-xxxxxxxxxxxx
+api_secret: yyyyyyyyyyyy
+recovery_codes: |
+  1234-5678
+  2345-6789
+  3456-7890
+private_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  ...
+  -----END OPENSSH PRIVATE KEY-----
+comment: 仕事用アカウント。2024-01 に PW 変更
+notes: |
+  - 部署: 開発
+  - 管理者: 田中さん
+created: 2024-05-10
+expires: 2026-05-10
